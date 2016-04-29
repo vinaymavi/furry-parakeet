@@ -8,7 +8,7 @@ module.exports = function (grunt) {
             options: {
                 reporter: require('jshint-stylish')
             },
-            build: ['Gruntfile.js', 'handlebars/**/*.js', 'mustache/**/*.js','sass/**/*.js']
+            build: ['Gruntfile.js', 'handlebars/**/*.js', 'mustache/**/*.js','sass_exp/**/*.js']
         },
         connect: {
             server: {
@@ -23,7 +23,7 @@ module.exports = function (grunt) {
         },
         watch: {
             js: {
-                files: ['handlebars/**/*.js', 'mustache/**/*.js','sass/**/*.js'],
+                files: ['handlebars/**/*.js', 'mustache/**/*.js','sass_exp/**/*.js'],
                 task: ['jshint'],
                 options: {
                     livereload: '<%= connect.server.options.livereload %>'
