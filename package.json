@@ -1,0 +1,32 @@
+{
+  "name": "furry-parakeet",
+  "version": "0.0.1",
+  "description": "This a simple project rampup repository ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinaymavi/furry-parakeet.git"
+  },
+  "keywords": [
+    "SASS",
+    "handlebar.js",
+    "mustache.js",
+    "css"
+  ],
+  "author": "vinaymavi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinaymavi/furry-parakeet/issues"
+  },
+  "homepage": "https://github.com/vinaymavi/furry-parakeet#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jshint-stylish": "^2.1.0"
+  }
+}
